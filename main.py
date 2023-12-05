@@ -6,8 +6,8 @@ max_frame = 3
 while True:
   if frame == max_frame + 1:
     frame = 1
-  f = open(f"frames/{frame}")
-  print(f.read())
+  frameString = system(F"curl https://penguincoder1.github.io/CurlTest/frames/{frame}")
+  print(frameString)
   frame = frame + 1
   sleep(0.1)
   system("clear")
