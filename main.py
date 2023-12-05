@@ -10,4 +10,4 @@ while True:
   print(frameString)
   frame = frame + 1
   sleep(0.1)
-  system("clear")
+  print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
