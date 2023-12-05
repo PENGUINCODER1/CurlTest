@@ -1,4 +1,5 @@
 from os import system
+import sys
 from time import sleep
 
 frame = 1
@@ -10,4 +11,5 @@ while True:
   print(frameString)
   frame = frame + 1
   sleep(0.1)
-  print('\033[2J\033[3J\033[H')
+  sys.stdout.write("\033[2J\033[3J\033[H")
+  sys.stdout.flush()
