@@ -1,4 +1,4 @@
-from os import scandir, system
+from os import system
 from time import sleep
 
 frame = 1
@@ -10,4 +10,4 @@ while True:
   print(frameString)
   frame = frame + 1
   sleep(0.1)
-  print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+  print('\033[2J\033[3J\033[H')
